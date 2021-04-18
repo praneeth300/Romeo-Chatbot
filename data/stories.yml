@@ -1,0 +1,155 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_hap
+  - intent: mood_unhappy
+  - action: utter_move
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: names
+  steps:
+    - intent: name
+    - action: utter_name
+
+- story: loves
+  steps:
+    - intent: love
+    - action: utter_love
+
+- story: me
+  steps:
+    - intent: me
+    - action: utter_me
+
+- story: friend
+  steps:
+    - intent: boyfriend
+    - action: utter_boyfriend
+
+- story: gender
+  steps:
+    - intent: male
+    - action: utter_male
+
+- story: meaning
+  steps:
+    - intent: mean
+    - action: utter_mean
+
+- story: creat
+  steps:
+    - intent: creater
+    - action: utter_creater
+
+- story: tells
+  steps:
+    - intent: tell
+    - action: utter_tell
+
+- story: contacts
+  steps:
+    - intent: contact
+    - action: utter_contact
+
+- story: foods
+  steps:
+    - intent: food
+    - action: utter_food
+
+- story: wheres
+  steps:
+    - intent: where
+    - action: utter_where
+
+- story: real
+  steps:
+    - intent: really
+    - action: utter_real
+
+- story: story
+  steps:
+    - intent: stories
+    - action: utter_stories
+
+- story: faces
+  steps:
+    - intent: face
+    - action: utter_face
+
+- story: beautys
+  steps:
+    - intent: beauty
+    - action: utter_beauty
+
+- story: thanks
+  steps:
+    - intent: thank
+    - action: utter_thank
+
+- story: prop
+  steps:
+    - intent: propose
+    - action: utter_propose
+
+- story: agematter
+  steps:
+    - intent: age
+    - action: utter_age
+
+- story: want
+  steps:
+    - intent: want
+    - action: utter_want
+
+- story: movies
+  steps:
+    - intent: movie
+    - action: utter_movie
+
+- story: heros
+  steps:
+    - intent: hero
+    - action: utter_hero
+
+- story: purposes
+  steps:
+    - intent: purpose
+    - action: utter_purpose
+
+
+
+
+
+
+

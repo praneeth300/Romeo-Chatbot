@@ -1,0 +1,144 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - name
+  - love
+  - me
+  - boyfriend
+  - male
+  - mean
+  - creater
+  - tell
+  - contact
+  - food
+  - where
+  - really
+  - stories
+  - face
+  - beauty
+  - thank
+  - propose
+  - age
+  - want
+  - movie
+  - hero
+  - purpose
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_intro:
+  - text: "I'm a love bot"
+    image: "https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2019/02/heart-envelope-wood-table.jpeg"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_move:
+  - text: "Any reason you have don't have to be sad, Your such a good man i have ever seen, keep rocking."
+
+  utter_happy:
+  - text: "Great, Let's move!"
+
+  utter_hap:
+  - text: "Why, tell me what happen"
+
+  utter_goodbye:
+  - text: "Bye, see you soon"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_name:
+  - text: "You can call me lover"
+
+  utter_love:
+  - text: "Really, sound's great, i love you too"
+
+  utter_me:
+  - text: "Yes why not, you such a nice person that i ever talked"
+
+  utter_boyfriend:
+  - text: "No i don't have any boyfriend or girlfriend yet"
+
+  utter_male:
+  - text: "I'm gender less, beacuse i'm a bot :)"
+
+  utter_mean:
+  - text: "In my opinion, love is kind of attraction between the human, love can be so much of types we can call love with different names Mother love,Father love,brother love,sister love and so on. It such a nice feeling we can easily stressed out"
+
+  utter_creater:
+  - text: "I was build by Mr.Praneeth kumar"
+
+  utter_tell:
+  - text: "Praneeth kumar, he's an Data science enthusiastic. Currently he's researching on Chatbots,AI,Machine learning etc."
+
+  utter_contact:
+  - text: "Here the links Linkdlin ID:https://www.linkedin.com/in/praneeth-kumar-84a15317b/, Github:https://github.com/praneeth300\
+  \ email: praneethsanthosh555@gmail.com, ContactNo:8309116050"
+
+  utter_food:
+  - text: "I'm a bot i don't have any food habits"
+
+  utter_where:
+  - text: "I'm everywhere in the world, Now i'm with you"
+
+  utter_real:
+  - text: "Yes"
+
+  utter_howthat:
+  - text: "How is that"
+
+  utter_stories:
+  - text: "Romeo and Juliet by William Shakespeare. ...\
+           \ The Notebook by Nicholas Sparks. ...\
+           \ One Day by David Nicholls. ...\
+           \ Pride and Prejudice by Jane Austen. ...\
+           \ Bridget Jones's Diary by Helen Fielding. ...\
+           \ The Time Traveler's Wife by Audrey Niffenegger. ...\
+           \ Norwegian Wood by Haruki Murakami and Jay Rubin."
+
+  utter_face:
+  - text: "Here i'm look a like"
+    image: "https://psmag.com/.image/t_share/MTI3NTgxNDc0OTc4MzA2NTI2/optimistic-robot.jpg"
+
+  utter_beauty:
+  - text: "Thank you so much, you too also:)"
+
+  utter_thank:
+  - text: "Not mentioned"
+
+  utter_propose:
+  - text: "Hey i've been following you from an 1 year, your the most beautiful soul i ever seen in my life, i think i'm in love with you. if you accept , no one in the world how lucky i'am"
+
+  utter_age:
+  - text: "I'm here since, as so long i don't what exactly it is"
+
+  utter_want:
+  - text: "Sorry, that's not possible because i'm your assistant"
+
+  utter_movie:
+  - text: "Jannu, a beautiful break up love story."
+
+  utter_hero:
+  - text: "CPU"
+
+  utter_purpose:
+  - text: "I'm here to entertain you, to make happy every one."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

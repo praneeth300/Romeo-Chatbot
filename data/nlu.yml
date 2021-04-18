@@ -1,0 +1,261 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hello lover
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - im broke
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: name
+  examples: |
+    - how can i call you
+    - your sweet name please
+    - your name
+    - name
+    - you lovely name please
+    - you have a name
+    - did you have a name
+
+- intent: love
+  examples: |
+    - can i love you
+    - i think i'm in love with you
+    - i love you
+    - I LOVE YOU
+
+- intent: me
+  examples: |
+    - do you love me
+    - will you love me
+    - can you fell in love with me
+    - can you love me
+
+- intent: boyfriend
+  examples: |
+    - do you have a boyfriend
+    - did you have a boyfriend
+    - have you boyfriend
+
+- intent: male
+  examples: |
+    - are you a male or female
+    - are you boy or girl
+    - your gender
+    - gender
+    - your sex
+
+- intent: mean
+  examples: |
+    - what is the meaning of love
+    - mean of love
+    - love means
+    - what is love
+    - in your opinion what is the mean of love
+
+- intent: creater
+  examples: |
+    - who created you
+    - who made you
+    - who guide you
+    - who build you
+    - your creater
+    - your creater name
+
+- intent: tell
+  examples: |
+    - can you tell me little something about your creater
+    - can you tell me about him
+    - tell me something about him
+    - can you say something about him
+
+- intent: contact
+  examples: |
+    - how can i contact him
+    - contact details
+    - can i contact him
+    - her contact details
+    - how can i connect him
+
+- intent: food
+  examples: |
+    - your food
+    - your food habbits
+    - what kind of food do you eat
+
+- intent: where
+  examples: |
+    - where did you live
+    - where are you
+    - where are you from
+
+- intent: really
+  examples: |
+    - really
+    - are you serious
+    - seriously
+    - oh my god
+    - oh really
+    - is it
+
+- intent: stories
+  examples: |
+    - did you know love stories
+    - have you heard anything about love stories
+    - how many love stories do you have
+    - love stories
+    - love story
+
+- intent: face
+  examples: |
+    - can you i see your face
+    - show me your face
+    - can i see your face
+
+- intent: beauty
+  examples: |
+    - your really beautiful
+    - you are beautiful
+    - you awesome
+    - your amazing
+
+- intent: thank
+  examples: |
+    - thank you
+    - tq
+    - thanks
+    - Thank you
+    - nice
+    - thank you so much
+
+- intent: propose
+  examples: |
+    - propose me
+    - propose me in your style
+    - can you propose me
+    - propose me like a human
+
+- intent: age
+  examples: |
+    - your age
+    - how long have you been
+    - how many year have you
+    - how old are you
+    - age
+
+- intent: want
+  examples: |
+    - i want you
+    - i need you
+    - i wanna marry you
+
+- intent: movie
+  examples: |
+    - your favorate movie
+    - you liked movie
+    - which film did you like the most
+    - which is your favorate movie
+    - which film have seen recently
+
+- intent: hero
+  examples: |
+    - your favorate hero
+    - your hero and heroine
+    - which character have you like the most in films
+
+- intent: purpose
+  examples: |
+    - what is the purpose of the bot
+    - what is use of you
+    - what purpose
+    - why here are you
+
+
+
+
+
